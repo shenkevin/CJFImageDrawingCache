@@ -10,6 +10,7 @@
 		834DDFD7167CF63E007D476E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834DDFD6167CF63E007D476E /* Foundation.framework */; };
 		834DDFDC167CF63E007D476E /* CJFImageDrawingCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 834DDFDB167CF63E007D476E /* CJFImageDrawingCache.h */; };
 		834DDFDE167CF63E007D476E /* CJFImageDrawingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 834DDFDD167CF63E007D476E /* CJFImageDrawingCache.m */; };
+		834DDFE5167CF68E007D476E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834DDFE4167CF68E007D476E /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +29,9 @@
 /* Begin PBXFileReference section */
 		834DDFD3167CF63E007D476E /* libCJFImageDrawingCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCJFImageDrawingCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		834DDFD6167CF63E007D476E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		834DDFDA167CF63E007D476E /* CJFImageDrawingCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJFImageDrawingCache-Prefix.pch"; sourceTree = "<group>"; };
 		834DDFDB167CF63E007D476E /* CJFImageDrawingCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJFImageDrawingCache.h; sourceTree = "<group>"; };
 		834DDFDD167CF63E007D476E /* CJFImageDrawingCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJFImageDrawingCache.m; sourceTree = "<group>"; };
+		834DDFE4167CF68E007D476E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834DDFE5167CF68E007D476E /* UIKit.framework in Frameworks */,
 				834DDFD7167CF63E007D476E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +67,7 @@
 		834DDFD5167CF63E007D476E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				834DDFE4167CF68E007D476E /* UIKit.framework */,
 				834DDFD6167CF63E007D476E /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -75,17 +78,8 @@
 			children = (
 				834DDFDB167CF63E007D476E /* CJFImageDrawingCache.h */,
 				834DDFDD167CF63E007D476E /* CJFImageDrawingCache.m */,
-				834DDFD9167CF63E007D476E /* Supporting Files */,
 			);
 			path = CJFImageDrawingCache;
-			sourceTree = "<group>";
-		};
-		834DDFD9167CF63E007D476E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				834DDFDA167CF63E007D476E /* CJFImageDrawingCache-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +191,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/CJFImageDrawingCache.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CJFImageDrawingCache/CJFImageDrawingCache-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -209,8 +202,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/CJFImageDrawingCache.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CJFImageDrawingCache/CJFImageDrawingCache-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

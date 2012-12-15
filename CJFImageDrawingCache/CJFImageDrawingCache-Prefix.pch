@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'CJFImageDrawingCache' target in the 'CJFImageDrawingCache' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
