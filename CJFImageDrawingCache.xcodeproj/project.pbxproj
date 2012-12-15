@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834DDFD7167CF63E007D476E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834DDFD6167CF63E007D476E /* Foundation.framework */; };
+		834DDFDC167CF63E007D476E /* CJFImageDrawingCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 834DDFDB167CF63E007D476E /* CJFImageDrawingCache.h */; };
+		834DDFDE167CF63E007D476E /* CJFImageDrawingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 834DDFDD167CF63E007D476E /* CJFImageDrawingCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		834DDFD1167CF63E007D476E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				834DDFDC167CF63E007D476E /* CJFImageDrawingCache.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		834DDFD3167CF63E007D476E /* libCJFImageDrawingCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCJFImageDrawingCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		834DDFD6167CF63E007D476E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		834DDFDA167CF63E007D476E /* CJFImageDrawingCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJFImageDrawingCache-Prefix.pch"; sourceTree = "<group>"; };
+		834DDFDB167CF63E007D476E /* CJFImageDrawingCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJFImageDrawingCache.h; sourceTree = "<group>"; };
+		834DDFDD167CF63E007D476E /* CJFImageDrawingCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJFImageDrawingCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834DDFD0167CF63E007D476E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834DDFD7167CF63E007D476E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834DDFC8167CF63E007D476E = {
+			isa = PBXGroup;
+			children = (
+				834DDFD8167CF63E007D476E /* CJFImageDrawingCache */,
+				834DDFD5167CF63E007D476E /* Frameworks */,
+				834DDFD4167CF63E007D476E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834DDFD4167CF63E007D476E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834DDFD3167CF63E007D476E /* libCJFImageDrawingCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834DDFD5167CF63E007D476E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				834DDFD6167CF63E007D476E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		834DDFD8167CF63E007D476E /* CJFImageDrawingCache */ = {
+			isa = PBXGroup;
+			children = (
+				834DDFDB167CF63E007D476E /* CJFImageDrawingCache.h */,
+				834DDFDD167CF63E007D476E /* CJFImageDrawingCache.m */,
+				834DDFD9167CF63E007D476E /* Supporting Files */,
+			);
+			path = CJFImageDrawingCache;
+			sourceTree = "<group>";
+		};
+		834DDFD9167CF63E007D476E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				834DDFDA167CF63E007D476E /* CJFImageDrawingCache-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834DDFD2167CF63E007D476E /* CJFImageDrawingCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834DDFE1167CF63E007D476E /* Build configuration list for PBXNativeTarget "CJFImageDrawingCache" */;
+			buildPhases = (
+				834DDFCF167CF63E007D476E /* Sources */,
+				834DDFD0167CF63E007D476E /* Frameworks */,
+				834DDFD1167CF63E007D476E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJFImageDrawingCache;
+			productName = CJFImageDrawingCache;
+			productReference = 834DDFD3167CF63E007D476E /* libCJFImageDrawingCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834DDFCA167CF63E007D476E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chris Fothergill";
+			};
+			buildConfigurationList = 834DDFCD167CF63E007D476E /* Build configuration list for PBXProject "CJFImageDrawingCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 834DDFC8167CF63E007D476E;
+			productRefGroup = 834DDFD4167CF63E007D476E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834DDFD2167CF63E007D476E /* CJFImageDrawingCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834DDFCF167CF63E007D476E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834DDFDE167CF63E007D476E /* CJFImageDrawingCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		834DDFDF167CF63E007D476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		834DDFE0167CF63E007D476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834DDFE2167CF63E007D476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CJFImageDrawingCache.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CJFImageDrawingCache/CJFImageDrawingCache-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		834DDFE3167CF63E007D476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CJFImageDrawingCache.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CJFImageDrawingCache/CJFImageDrawingCache-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834DDFCD167CF63E007D476E /* Build configuration list for PBXProject "CJFImageDrawingCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834DDFDF167CF63E007D476E /* Debug */,
+				834DDFE0167CF63E007D476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834DDFE1167CF63E007D476E /* Build configuration list for PBXNativeTarget "CJFImageDrawingCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834DDFE2167CF63E007D476E /* Debug */,
+				834DDFE3167CF63E007D476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834DDFCA167CF63E007D476E /* Project object */;
+}
